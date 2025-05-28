@@ -10,3 +10,11 @@ document.querySelectorAll('.contact_link').forEach(link => {
         }
     });
 });
+
+document.getElementById('go-to-start').addEventListener('click', function (e) {
+    e.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});

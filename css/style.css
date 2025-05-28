@@ -1470,7 +1470,11 @@ nav .menu .menu__item {
 
 .form__contact .wrapper .form__submit .privacy .user__checkbox {
     display: flex;
-    align-items: center;
+    margin-top: 20px;
+}
+
+.form__contact .wrapper .form__submit .privacy .user__checkbox p {
+    margin-top: 0;
 }
 
 .checkbox-icon {
